@@ -4,39 +4,39 @@ public class Operator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int a = 10;
-        int b = 20;
+//        int a = 10;
+//        int b = 20;
+//
+//        int c = a + b;
+//
+//        System.out.println("a+b= " + c);
+//
+//        c = a - b;
+//        System.out.println("a-b= " + c);
+//
+//        c = a * b;
+//        System.out.println("a*b= " +c);
+//
+//        c = 10 / 3;
+//        System.out.println("10 / 3 = " + c);
+//
+//        c = 10 % 3;
+//        System.out.println("10 % 3 = " + c);
+//
+//        System.out.print("정수를 입력하세요 : ");
+//        int time = scanner.nextInt();
+//        int second = time % 60;
+//        int minute = (time / 60) % 60;
+//        int hour = (time / 60) / 60;
+//
+//        System.out.print(time + "초는");
+//        System.out.print(hour + "시간, ");
+//        System.out.print(minute + "분, ");
+//        System.out.print(second + "초 입니다.");
+//
+//        scanner.close();
 
-        int c = a + b;
-
-        System.out.println("a+b= " + c);
-
-        c = a - b;
-        System.out.println("a-b= " + c);
-
-        c = a * b;
-        System.out.println("a*b= " +c);
-
-        c = 10 / 3;
-        System.out.println("10 / 3 = " + c);
-
-        c = 10 % 3;
-        System.out.println("10 % 3 = " + c);
-
-        System.out.print("정수를 입력하세요 : ");
-        int time = scanner.nextInt();
-        int second = time % 60;
-        int minute = (time / 60) % 60;
-        int hour = (time / 60) / 60;
-
-        System.out.print(time + "초는");
-        System.out.print(hour + "시간, ");
-        System.out.print(minute + "분, ");
-        System.out.print(second + "초 입니다.");
-
-        scanner.close();
-
-        System.out.println("\n------- 문자열 연결 연산자 -------\n");
+        System.out.println("------- 문자열 연결 연산자 -------");
 
         System.out.println("하나의 긴 문자열을 표현하기 위해서는 String 타입의 변수에 긴 문자열을 저장하여 출력");
 
